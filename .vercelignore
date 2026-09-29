@@ -1,0 +1,11 @@
+# Keep the deployment bundle to source + build config only.
+node_modules
+dist
+.env*
+!.env.example
+
+# Assignment brief and other local-only material
+*.pdf
+
+# Local dev server — production uses the functions in api/
+server.ts

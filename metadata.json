@@ -1,0 +1,6 @@
+{
+  "name": "NSOffice Live Health Intake Assistant",
+  "description": "Real-time AI voice intake companion built with Gemini API. Listens to patient symptoms, asks clinical follow-up questions, executes mid-conversation clinical tool calling, and generates structured SOAP handoffs for physicians.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
