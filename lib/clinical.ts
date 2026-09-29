@@ -8,7 +8,7 @@ import {
 } from '@google/genai';
 
 export const LIVE_MODEL = process.env.GEMINI_LIVE_MODEL || 'gemini-3.1-flash-live-preview';
-export const TEXT_MODEL = process.env.GEMINI_TEXT_MODEL || 'gemini-3.1-flash-preview';
+export const TEXT_MODEL = process.env.GEMINI_TEXT_MODEL || 'gemini-3-flash-preview';
 const TEXT_MODEL_FALLBACK = 'gemini-3.5-flash';
 
 export const LIVE_API_VERSION = 'v1alpha';
